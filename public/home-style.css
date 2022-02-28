@@ -1,0 +1,88 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+*:focus{outline: none;}
+
+.row {
+     max-width: 800px;
+     margin:0 auto;
+     padding: 10px;
+}
+
+body {
+background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+    
+}
+
+
+
+form {
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 7px;
+}
+
+h1 {
+    text-align: center;
+    color: #fdfaf5;
+}
+
+h2 {
+    text-align: center;
+    color: #3498db;    
+
+}
+
+
+.label-holder {
+    font-size: 18px;
+    padding:20px 10px 2px 10px;
+    color: #292c2e;
+}
+
+input
+{
+    
+    padding: 8px;
+    border-radius: 4px;
+    color: #232526;
+    transition: 0.3s;
+    border: 1px solid #8d8e8e;
+    
+}
+
+input[type=text]:focus {
+    border: 1px solid #3498db;    
+}
+
+button {
+    background-color: #8b9396;   
+    color: #fff;
+    min-width: 60px;
+    border-radius: 5px;
+    height: 40px;
+}
+
+button:hover {
+    background-color: #3498db;   
+}
+
+
+
+#header-section {
+margin-top: 30px;
+}
+
+#login-section {
+    margin-top: 20px;
+
+}

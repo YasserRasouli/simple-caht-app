@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="grid.css" />
+    <link rel="stylesheet" href="home-style.css" />
+
+
+
+
+
+
+    <title>Meety</title>
+    
+
+    
+</head>
+<body>
+   <section id="header-section">
+       <div class="row">
+           <h1>Meety</h1>
+       </div>
+   </section>
+    <section id="login-section">
+        <div class="row">
+            <div class="col span-1-of-2">
+                <form id="login" action="http://localhost:4000/api/room" method="POST">
+
+                    <div class="row">
+                        <h2>Join a room</h2>
+                    </div>
+
+                     <div class="row label-holder">
+                            <label>Name</label>
+                     </div>
+                     <div class="row">
+                         <input type="text" name="name" placeholder="Enter Your name" style="width: 100%" required/>
+                     </div>
+
+                     <div class="row label-holder">
+                            <label>RoomID</label>
+                     </div>
+
+                     <div class="row">
+                         <input type="text" name="roomid" placeholder="Enter the room ID" style="width: 100%" required/>
+                     </div>
+
+                     <div class="row">
+                          <button type="submit" style="float: right">Join</button>
+
+                     </div>
+
+                </form>
+            </div>
+            
+            <div class="col span-1-of-2">
+                <form id="createRoom" action="http://localhost:4000/api/newroom" method="POST">
+
+                    <div class="row">
+                        <h2>Create a room</h2>
+                    </div>
+
+                     <div class="row label-holder">
+                            <label>Name</label>
+                     </div>
+                     <div class="row">
+                         <input type="text" name="name" placeholder="Enter Your name" style="width: 100%" required/>
+                     </div>
+
+                     <div class="row">
+                            <button type="submit" style="float: right">Create</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
